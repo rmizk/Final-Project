@@ -1,0 +1,114 @@
+/* .h1-1 {
+  z-index: 1;
+  position: absolute;
+  text-align: center;
+
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 8%;
+  color: white;
+  width: 70%;
+  font-size: 60px;
+}
+
+.h1-2 {
+  z-index: 1;
+  position: absolute;
+  text-align: center;
+
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 16%;
+  color: white;
+  width: 70%;
+  font-size: 45px;
+} */
+
+/* .container {
+  display: inline-block;
+  position: relative;
+}
+
+img {
+ 
+  max-width: 100%;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+.background {
+  background-image: url(C:\Users\RAMZI\Desktop\training\client\src\components\images\bhar.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -100px;
+  height: 100vh;
+}
+
+.logo {
+  background-image: url(C:\Users\RAMZI\Desktop\training\client\src\components\images\logoSM3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 70px;
+
+  width: 460px;
+  height: 320px;
+}
+
+.logo_container {
+  display: flex;
+  justify-content: center;
+  /* background-color: blue; */
+  margin-top: 1%;
+}
+
+.logos {
+  padding: 20px;
+}
+
+.logos img {
+  max-width: 100px;
+}
+
+.slogan {
+  display: flex;
+  flex-direction: column;
+  padding-top: 170px;
+  padding-left: 730px;
+}
+
+h1 {
+  color: #006937;
+  font-size: 40px;
+  /* margin-top: 0px; */
+  /* margin-right: 175px; */
+}
+
+.h1-2 {
+  margin-right: 175px;
+}
+
+hr {
+  margin-top: 10px;
+  color: #006937;
+  /* width: 300px; */
+  justify-items: center;
+  border: 1px solid #006937;
+  border-radius: 5px;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.logos {
+  transform: translate3d(0px, 0px, 0px);
+  opacity: 1;
+  filter: grayscale(100%);
+}
+
+.logos:hover {
+  filter: grayscale(0%);
+}

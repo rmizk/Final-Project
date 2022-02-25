@@ -1,0 +1,15 @@
+input {
+  width: 100%;
+  justify-content: center;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+
+.serach_box {
+  width: 400px;
+  /* height: 620px; */
+  margin: auto;
+}

@@ -1,0 +1,66 @@
+.background {
+  background-image: url(C:\Users\RAMZI\Desktop\training\client\src\components\images\bhar.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -100px;
+  height: 100vh;
+}
+
+.signup-box {
+  width: 360px;
+  height: 620px;
+  margin: auto;
+  /* background-color: #006937; */
+}
+
+h1 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+  padding-bottom: 5px;
+  justify-content: center;
+}
+
+h1 {
+  color: #006937;
+}
+
+form input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+
+input[type="button"] {
+  width: 100%;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+
+  color: white;
+  font-size: 18px;
+}
+
+p {
+  text-align: center;
+  padding-top: 15px;
+  font-size: 15px;
+}
+
+.connect-link {
+  color: #006937;
+  text-decoration: none;
+}
