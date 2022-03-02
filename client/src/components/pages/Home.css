@@ -61,6 +61,7 @@ img {
 .logo_container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   /* background-color: blue; */
   margin-top: 1%;
 }
